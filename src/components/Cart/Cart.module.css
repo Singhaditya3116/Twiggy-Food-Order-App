@@ -1,0 +1,28 @@
+.total-summary {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.buttons button {
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.close-btn {
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.order-btn {
+  background-color: #db4910;
+}
+
+ul {
+  list-style-type: none;
+}

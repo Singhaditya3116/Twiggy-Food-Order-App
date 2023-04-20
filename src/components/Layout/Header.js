@@ -9,10 +9,10 @@ const Header = (props) => {
     <Fragment>
       <header className={classes.header}>
         <h1>Twiggy</h1>
-        <HeaderCartButton />
+        <HeaderCartButton onClick={props.onShowCart} />
       </header>
       <div className={classes["main-image"]}>
-        <img src={mealsImage} alt="A of list of food"></img>
+        <img src={mealsImage} alt="A of list of food" draggable="false"></img>
       </div>
     </Fragment>
   );

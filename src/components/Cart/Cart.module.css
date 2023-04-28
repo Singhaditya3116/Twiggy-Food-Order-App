@@ -1,3 +1,9 @@
+.cart-items {
+  list-style-type: none;
+  max-height: 24rem;
+  overflow-y: scroll;
+}
+
 .total-summary {
   display: flex;
   justify-content: space-between;
